@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_1461753728841">
+  <servlet id="Servlet_1461755630436">
+    <description>My First Servlet From MyEclipse</description>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>LoginClServlet</servlet-name>
+    <servlet-class>com.sh.controller.LoginClServlet</servlet-class>
+  </servlet>
+  <servlet id="Servlet_1461755630439">
+    <description>My First Servlet From MyEclipse</description>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>RatingServlet</servlet-name>
+    <servlet-class>com.sh.controller.RatingServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>FindPassword</display-name>
+  	<servlet-name>FindPassword</servlet-name>
+  	<servlet-class>com.sh.controller.FindPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AdminLogin</display-name>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<servlet-class>com.sh.controller.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>AddMusic</display-name>
+  	<servlet-name>AddMusic</servlet-name>
+  	<servlet-class>com.sh.controller.AddMusic</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>MusicDelete</display-name>
+  	<servlet-name>MusicDelete</servlet-name>
+  	<servlet-class>com.sh.controller.MusicDelete</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>UserDelete</display-name>
+  	<servlet-name>UserDelete</servlet-name>
+  	<servlet-class>com.sh.controller.UserDelete</servlet-class>
+  </servlet>
+
+  
+  <servlet-mapping id="ServletMapping_1461755630434">
+    <servlet-name>LoginClServlet</servlet-name>
+    <url-pattern>/LoginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1461755630429">
+    <servlet-name>RatingServlet</servlet-name>
+    <url-pattern>/RatingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FindPassword</servlet-name>
+  	<url-pattern>/FindPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddMusic</servlet-name>
+  	<url-pattern>/AddMusic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MusicDelete</servlet-name>
+  	<url-pattern>/MusicDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserDelete</servlet-name>
+  	<url-pattern>/UserDelete</url-pattern>
+  </servlet-mapping>
+
+</web-app>
